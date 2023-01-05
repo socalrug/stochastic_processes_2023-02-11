@@ -2,7 +2,7 @@
 
 **Sharpen your Data Science skills with this is a hands-on workshop on advanced regression techniques in R.**
 
-What is a stochastic processes? The word stochastic is jargon for random. A stochastic process is a system which evolves in time while undergoing chance fluctuations. We can describe such a system by defining a family of random variables, $\{X_t\}$, where $X_t$ measures, at time t, the aspect of the system which is of interest. For example, $X_t$ might be the number of customers in a queue at time t. As time passes, customers will arrive and leave, and so the value of $X_t$ will change. At any time t, $X_t$ takes one of the values 0, 1, 2,...; and t can be any value in a subset of (−∞, ∞), the infinite past to the infinite future.
+What is a stochastic processes? The word stochastic is jargon for random. A stochastic process is a system which evolves in time while undergoing chance fluctuations. We can describe such a system by defining a family of random variables, $\{X_t\}$, where $X_t$ measures, at time t, the aspect of the system which is of interest. For example, $X_t$ might be the number of customers in a queue at time $t$. As time passes, customers will arrive and leave, and so the value of $X_t$ will change. At any time $t$, $X_t$ takes one of the values 0, 1, 2,...; and $t$ can be any value in a subset of $(−\infty, \infty)$, the infinite past to the infinite future.
 
 ## About this Event
 
@@ -16,12 +16,12 @@ The material covered by the workshop will be taken from my recently published bo
 
 Dr. Olga Korosteleva, is a professor of Statistics at the Department of Mathematics and Statistics at California State University, Long Beach (CSULB). She received her Bachelor’s degree in Mathematics in 1996 from Wayne State University in Detroit, and a Ph.D. in Statistics from Purdue University in West Lafayette, Indiana, in 2002. Since then she has been teaching mostly Statistics courses in the Master’s program in Applied Statistics at CSULB, and loving it!
 
-Dr. Olga is an undergraduate advisor for students majoring in Mathematics with an option in Statistics. She is also the faculty supervisor for the Statistics Student Association. She is also the immediate past-president of the Southern California Chapter of the American Statistical Association (SCASA). Dr. Olga is the editor-in-chief of SCASA’s monthly eNewsletter and the author (co-author) of four statistical books.
+Dr. Olga is an undergraduate advisor for students majoring in Mathematics with an option in Statistics. She is also the faculty supervisor for the Statistics Student Association. She is also the immediate past-president of the Southern California Chapter of the American Statistical Association (SCASA). Dr. Olga is the editor-in-chief of SCASA’s monthly eNewsletter and the author (co-author) of five statistical books.
 
 
 ## Event Details
 
-**When**: February $11^th$, 2023
+**When**: February $11^{th}$, 2023
 
 * Saturday: 8:30 AM - 04:30 PM
 
@@ -91,7 +91,7 @@ Since this event depends on you have an R setup that is functional with the corr
 
 ## Twitter
 
-Please follow us on twitter, oc_rug, and also tweet about the event with the hash tag #OCRUG
+Please follow us on twitter, oc_rug, and also tweet about the event with the hash tag #SoCalRUG
 
 ## Resources
 
