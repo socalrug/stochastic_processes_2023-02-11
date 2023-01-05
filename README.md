@@ -1,6 +1,6 @@
 # SoCal RUG - Introduction to Stochastic Processes
 
-**Sharpen your Data Science skills with this is a hands-on workshop on advanced regression techniques in R.**
+**Sharpen your data science skills with this is a hands-on workshop on stochastic processes**
 
 What is a stochastic processes? The word stochastic is jargon for random. A stochastic process is a system which evolves in time while undergoing chance fluctuations. We can describe such a system by defining a family of random variables, $\{X_t\}$, where $X_t$ measures, at time t, the aspect of the system which is of interest. For example, $X_t$ might be the number of customers in a queue at time $t$. As time passes, customers will arrive and leave, and so the value of $X_t$ will change. At any time $t$, $X_t$ takes one of the values 0, 1, 2,...; and $t$ can be any value in a subset of $(−\infty, \infty)$, the infinite past to the infinite future.
 
