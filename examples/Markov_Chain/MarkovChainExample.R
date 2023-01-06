@@ -1,67 +1,64 @@
 ####### PLOTTING DIAGRAM #######
 
 #specifying transition probability matrix
-tm<- matrix(c(0.1, 0.2, 0.7, 0.0, 0.5, 0.5, 
-0.6, 0.2, 0.2), nrow=3, ncol=3, byrow=TRUE)
+tm <- matrix(c(0.1, 0.2, 0.7, 0.0, 0.5, 0.5, 0.6, 0.2, 0.2), nrow=3, ncol=3, byrow=TRUE)
 
 #transposing transition probability matrix
-tm.tr<- t(tm)
+tm.tr <- t(tm)
 
-#plotting diagram 
+#plotting diagram
 library(diagram)
-plotmat(tm.tr, pos=c(1,2), arr.length=0.3, arr.width=0.1, 
-box.col="light blue", box.lwd=1, box.prop=0.5, box.size=0.12,
-box.type="circle", cex.txt=0.8, lwd=1, self.cex=0.6, 
-self.shiftx=0.17, self.shifty=-0.01)
+plotmat(tm.tr, pos=c(1,2), arr.length=0.3, arr.width=0.1, box.col="light blue",
+        box.lwd=1, box.prop=0.5, box.size=0.12, box.type="circle", cex.txt=0.8,
+        lwd=1, self.cex=0.6, self.shiftx=0.17, self.shifty=-0.01)
 
 ### SIMULATING TRAJECTORIES USING BUILT-IN FUNCTION RMARKOVCHAIN()
 
 #creating Markov chain object
 library(markovchain)
-mc<- new("markovchain", transitionMatrix=tm, states=c("1", "2", "3"))
+mc  <- new("markovchain", transitionMatrix=tm, states=c("1", "2", "3"))
 
 #specifying total number of steps
-nsteps<- 25
+nsteps <- 25
 
 #specifying initial probability
-p0<- c(1/3, 1/3, 1/3)
+p0 <- c(1/3, 1/3, 1/3)
 
 #specifying matrix containing states
-MC.states<- matrix(NA, nrow=nsteps, ncol=2)
+MC.states <- matrix(NA, nrow=nsteps, ncol=2)
 
 #specifying seed
 set.seed(2441927)
 
 #simulating trajectories
 for (i in 1:2){
-  state0<- sample(1:3, 1, prob=p0)
-  MC.states[,i]<- rmarkovchain(n=nsteps-1, object=mc, t0=state0, 
-  include.t0=TRUE)
+  state0 <- sample(1:3, 1, prob=p0)
+  MC.states[,i] <- rmarkovchain(n=nsteps-1, object=mc, t0=state0, include.t0=TRUE)
 }
 
 #plotting simulated trajectories
-matplot(MC.states, type="l", lty=1, lwd=2, col=c("blue","green"), 
-main="Simulated Trajectories", xaxt="n", yaxt="n", ylim=c(1,3), 
-ylab="State", xlab="Step", panel.first=grid())
+matplot(MC.states, type="l", lty=1, lwd=2, col=c("blue","green"),
+        main="Simulated Trajectories", xaxt="n", yaxt="n", ylim=c(1,3),
+        ylab="State", xlab="Step", panel.first=grid())
 
-axis(side=1, at=c(1,5,10,15,20,25))
-axis(side=2, at=c(1,2,3))
+axis(side=1, at=c(1, 5, 10, 15, 20, 25))
+axis(side=2, at=c(1, 2, 3))
 
 points(1:nsteps, MC.states[,1], pch=16, col="blue")
 points(1:nsteps, MC.states[,2], pch=16, col="green")
 
 
-###SIMULATING TRAJECTORIES USING USER-DEFINED FUNCTION 
+###SIMULATING TRAJECTORIES USING USER-DEFINED FUNCTION
 
 #creating user-defined function
 
-MC<- function(tm, p0, nsteps) {
-  states<- numeric()
-  states[1]<- sample(1:3, 1, prob=p0)
-  
+MC  <- function(tm, p0, nsteps) {
+  states  <- numeric()
+  states[1] <- sample(1:3, 1, prob=p0)
+
   for(t in 2:nsteps) {
-    p<- tm[states[t-1],]  
-    states[t]<- sample(1:3, 1, prob=p)
+    p  <- tm[states[t-1],]
+    states[t]  <- sample(1:3, 1, prob=p)
   }
   return(states)
 }
@@ -70,17 +67,18 @@ MC<- function(tm, p0, nsteps) {
 set.seed(2441927)
 
 #simulating trajectories
-MC.states2<- matrix(NA, nrow=nsteps, ncol=2)
-for (j in 1:2)
-  MC.states2[,j]<- MC(tm, p0, nsteps)
+MC.states2  <- matrix(NA, nrow=nsteps, ncol=2)
+for (j in 1:2) {
+  MC.states2[,j]  <- MC(tm, p0, nsteps)
+}
 
 #plotting simulated trajectories
-matplot(MC.states2, type="l", lty=1, lwd=2, col=c("red","purple"), 
-main="Simulated Trajectories", xaxt="n", yaxt="n", ylim=c(1,3),
-ylab="State", xlab="Step", panel.first=grid())
+matplot(MC.states2, type="l", lty=1, lwd=2, col=c("red","purple"),
+        main="Simulated Trajectories", xaxt="n", yaxt="n", ylim=c(1,3),
+        ylab="State", xlab="Step", panel.first=grid())
 
-axis(side=1, at=c(1,5,10,15,20,25))
-axis(side=2, at=c(1,2,3))
+axis(side=1, at=c(1, 5, 10, 15, 20, 25))
+axis(side=2, at=c(1, 2, 3))
 
 points(1:nsteps, MC.states2[,1], pch=16, col="red")
 points(1:nsteps, MC.states2[,2], pch=16, col="purple")
@@ -91,21 +89,22 @@ round(steadyStates(mc), digits=4)
 
 ### APPROXIMATING STEADY-STATE PROBABILITIES
 #specifying total number of steps
-nsteps<- 15
+nsteps <- 15
 
 #specifying matrix containing probabilities
-probs<- matrix(NA, nrow=nsteps, ncol=3)
+probs <- matrix(NA, nrow=nsteps, ncol=3)
 
-#computing probabilities pi_n 
-probs[1,] <- p0
-for(n in 2:nsteps) 
-  probs[n,]<- probs[n-1,]%*%tm
+#computing probabilities pi_n
+probs[1,]  <- p0
+for(n in 2:nsteps) {
+  probs[n,] <- probs[n-1,]%*%tm
+}
 
 #plotting probabilities vs. step by state
 matplot(probs, type="l", lty=1, lwd=2, col=c("red","blue","green"),
-main="Convergence to Steady-state Probabilities", ylim=c(0.2,0.6), xlab="Step", 
-ylab="Probability", panel.first = grid())
-legend("topright", c("State 1", "State 2", "State 3"), lty=1, lwd=2, 
+        main="Convergence to Steady-state Probabilities", ylim=c(0.2,0.6),
+        xlab="Step", ylab="Probability", panel.first = grid())
+legend("topright", c("State 1", "State 2", "State 3"), lty=1, lwd=2,
 col=c("red","blue","green"))
 
 print(probs)
