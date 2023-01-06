@@ -1,5 +1,4 @@
-stock.data<- read.csv(file="C:/Users/000110888/OneDrive - CSULB/Desktop/AMZN.csv", 
-header=TRUE, sep=",")
+stock.data<- read.csv(file="./data/AMZN.csv", header=TRUE, sep=",")
 
 date<- as.POSIXct(stock.data$Date)
 price<- stock.data$Close

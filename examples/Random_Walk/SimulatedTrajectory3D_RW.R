@@ -1,3 +1,7 @@
+# This build of rgl does not include OpenGL functions.  Use
+#  rglwidget() to display results, e.g. via options(rgl.printRglwidget = TRUE).
+options(rgl.printRglwidget = TRUE)
+
 #specifying number of steps
 nsteps<- 5000
 

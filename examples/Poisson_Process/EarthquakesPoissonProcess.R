@@ -1,4 +1,4 @@
-eq.data<- read.csv(file="C:/Users/000110888/OneDrive - CSULB/Desktop/earthquakedata2012-2018.csv", 
+eq.data<- read.csv(file="./data/earthquakedata2012-2018.csv", 
 header=TRUE, sep=",")
 
 #creating date-time variable

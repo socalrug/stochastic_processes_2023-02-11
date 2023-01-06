@@ -1,5 +1,4 @@
-gasprice.data<- read.csv(file="C:/Users/000110888/OneDrive - CSULB/Desktop/gaspricedata.csv", 
-header=TRUE, sep=",")
+gasprice.data<- read.csv(file="./data/gaspricedata.csv", header=TRUE, sep=",")
 
 #estimating parameters
 inc<- gasprice.data$Price[-1]-head(gasprice.data$Price,-1)

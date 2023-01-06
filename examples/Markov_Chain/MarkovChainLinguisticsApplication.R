@@ -2,7 +2,7 @@
 ###### "EUGENE ONEGIN" BY ALEXANDER S. PUSHKIN ######
 #####################################################
 library(tidyverse)
-text<- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/Onegin.txt")
+text<- read_file("./data/Onegin.txt")
 
 #text cleaning
 #gsub() = global substitution function=replaces all instances
@@ -48,7 +48,7 @@ print(tm)
 ###### "A TALE OF TWO CITIES" BY CHARLES DICKENS ######
 #####################################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/ATaleOfTwoCities.txt")
+text <- read_file("./data/ATaleOfTwoCities.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)
@@ -82,7 +82,7 @@ print(tm)
 ###### CIEN ANOS DE SOLEDAD BY GABRIEL GARCIA MARQUEZ ######
 ############################################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/CienAnosDeSoledad.txt")
+text <- read_file("./data/CienAnosDeSoledad.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)
@@ -118,7 +118,7 @@ print(tm)
 ###### LE PETIT PRINCE BY ANTOINE DE SAINT-EXUPERY ######
 #########################################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/LePetitPrince.txt")
+text <- read_file("./data/LePetitPrince.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)
@@ -153,7 +153,7 @@ print(tm)
 ###### "MOBY DICK" BY HERMAN MELVILLE ######
 #####################################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/MobyDick.txt")
+text <- read_file("./data/MobyDick.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)
@@ -187,7 +187,7 @@ print(tm)
 ###### "CRIME AND PUNISHMENT" BY FYODOR DOSTOEVSKY ######
 #########################################################
 library(tidyverse)
-text<- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/CrimeAndPunishment.txt")
+text<- read_file("./data/CrimeAndPunishment.txt")
 
 #text cleaning
 #gsub() = global substitution function=replaces all instances
@@ -233,7 +233,7 @@ print(tm)
 ###### DON QUIXOTE BY MIGUEL DE CERVANTES ######
 ################################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/DonQuijote.txt")
+text <- read_file("./data/DonQuijote.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)
@@ -268,7 +268,7 @@ print(tm)
 ###### LES MISERABLES BY VICTOR HUGO  ######
 ############################################
 library(tidyverse)
-text <- read_file("C:/Users/000110888/OneDrive - CSULB/Desktop/LesMiserables.txt")
+text <- read_file("./data/LesMiserables.txt")
 
 lowercase<- tolower(text)
 no.blanks<- gsub(" ","",lowercase)

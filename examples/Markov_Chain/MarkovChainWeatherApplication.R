@@ -1,4 +1,4 @@
-weather.data<- read.csv("C:/Users/000110888/OneDrive - CSULB/Desktop/weather_description.csv",
+weather.data<- read.csv("./data/weather_description.csv",
 header=TRUE, sep=",")
 
 LA<- weather.data$Los.Angeles

@@ -1,8 +1,7 @@
-volcanoes.data<- read.csv(file="C:/Users/000110888/OneDrive - CSULB/Desktop/volcanoesdata.csv", 
-header=TRUE, sep=",")
+volcanoes.data<- read.csv(file="./data/volcanoesdata.csv", header=TRUE, sep=",")
 
 #creating date-time variable
-datetime<- as.POSIXct(paste(as.Date(volcanoes.data$DATE), volcanoes.data$TIME))
+datetime<- as.POSIXct(paste(as.Date(volcanoes.data$DATE, '%m/%d/%Y'), volcanoes.data$TIME))
 
 #computing lag
 datetime.lag<- c(0,head(datetime, -1))
