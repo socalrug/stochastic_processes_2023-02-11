@@ -125,13 +125,13 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
     * Water
     * Various snacks, (e.g. fruit, chips, nuts, granola bars)
 
-|Qty|Description|
-|:- |:-|
-| |Vegan Boxed Lunch|
-| |Honey Mustard Ham and Swiss Sandwich|
-| |Roast Beef and Cheddar Sandwich|
-| |Deli Sliced Turkey and Swiss Sandwich|
-| |Grilled Chicken Club with Bacon and Swiss Sandwich|
+|Qty|Description|Comment|
+|:- |:-|:-|
+| 13 |Bavarian Ham and Swiss on a Pretzel Roll||
+| 13 |Roast Beef with Tarragon Horseradish Spread on Wheatberry Bread||
+| 13 |Shawarma Chicken Ciabatta with Sliced Cucumber, Feta Cheese, Lettuce, Tomato and Lemon Tahini Dressing||
+| 13 |Mozzarella, Red Pepper, Balsamic and Kale Ciabatta|Vegetarian|
+| 13 |Portobello Banh Mi Sub with Pickled Veggies, Jalapenos and Vegan Sriracha Mayo|Vegetarian|
 
 ## Schedule
 
