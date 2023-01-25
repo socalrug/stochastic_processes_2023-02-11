@@ -43,11 +43,11 @@ Irvine, CA 92617
 **Registration**
 
 * Cost: $10
-* Register through [EventBright]()
+* Register through [EventBright](https://www.eventbrite.com/e/socal-rug-introduction-to-stochastic-processes-tickets-515333254637)
 
 ## Rules
 
-* All participants must [register for the event]() and have a valid ticket to attend. If there is space you can register at the door.
+* All participants must [register for the event](https://www.eventbrite.com/e/socal-rug-introduction-to-stochastic-processes-tickets-515333254637) and have a valid ticket to attend. If there is space you can register at the door.
 * All participants must abide by the [SoCal RUG Code of Conduct](https://tinyurl.com/socalrug-conduct), including the [R Consortium and the R Community Code of Conduct](https://wiki.r-consortium.org/view/R_Consortium_and_the_R_Community_Code_of_Conduct).
 
 ## WiFi Access
@@ -78,7 +78,7 @@ A slack channel has been set up for the event. This will be used for general ann
 
 If you have not created an account on our slack group, create one using the following link:
 
-Slack Group Sign-up: [https://tinyurl.com/socalrug-slack-signup](https://tinyurl.com/socalrug-slack-signup)
+Slack Group [Sign-up](https://join.slack.com/t/socalrug/shared_invite/zt-1ncc32m9d-41ydy3I9TnsVSo_GO~AvqQ)
 
 Once you have an account, sign in (you can do it on a web browser or download an app on your phone or desktop).
 
