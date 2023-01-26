@@ -62,7 +62,7 @@ If you have problems, please call OIT support line at (949) 824-2222 option 3
 
 SoCal RUG GitHub Repo: [https://github.com/socalrug/](https://github.com/socalrug/)
 
-**Please install git and clone the following repo before the event and pull before the start of the event**
+**Please [install git](https://github.com/git-guides/install-git) and clone the following repo before the event. Pull before the start of the event**
 
 command: 
 
@@ -71,6 +71,8 @@ git clone https://github.com/socalrug/stochastic_processes_2023-02-11.git
 ```
 
 Event Repo: [https://github.com/socalrug/stochastic_processes_2023-02-11](https://github.com/socalrug/stochastic_processes_2023-02-11)
+
+An alternative approach if you are not comfortable with git is to [download a zip file](https://github.com/socalrug/stochastic_processes_2023-02-11/archive/refs/heads/main.zip) of the repo. However, this approach requires you to download it each time there is a change.
 
 ## Slack Channel
 
