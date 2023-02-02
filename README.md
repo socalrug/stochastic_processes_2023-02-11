@@ -92,6 +92,10 @@ The channel for the course is **stochastic-2023**
 
 Since this event depends on you have an R setup that is functional with the correct packages and version of R, we highly recommend that you run the [check_setup.r](https://github.com/socalrug/stochastic_processes_2023-02-11/blob/main/check_setup.r) before the event. If you have issues, please reach out to us in the slack channel (see above) to get help.
 
+## Posit Cloud
+
+You could use the Posit Cloud during the course instead of setting up RStudio and GitHub. There is a [Posit project](https://posit.cloud/content/5313387) which will allow you to run RStudio in the cloud. It is preconfigured with the example and exercise code. Plus, it has all the required packages installed. You will need a Posit Cloud account. A free account can be set up. 
+
 ## Twitter
 
 Please follow us on twitter, oc_rug, and also tweet about the event with the hash tag #SoCalRUG
