@@ -135,10 +135,10 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
 |Qty|Description|Comment|
 |:- |:-|:-|
 |  0 |Bavarian Ham and Swiss on a Pretzel Roll||
-| 20 |Roast Beef with Tarragon Horseradish Spread on Wheatberry Bread||
-| 20 |Shawarma Chicken Ciabatta with Sliced Cucumber, Feta Cheese, Lettuce, Tomato and Lemon Tahini Dressing||
-| 20 |Mozzarella, Red Pepper, Balsamic and Kale Ciabatta|Vegetarian|
-| 25 |Portobello Banh Mi Sub with Pickled Veggies, Jalapenos and Vegan Sriracha Mayo|Vegetarian|
+| 12 |Roast Beef with Tarragon Horseradish Spread on Wheatberry Bread||
+| 12 |Shawarma Chicken Ciabatta with Sliced Cucumber, Feta Cheese, Lettuce, Tomato and Lemon Tahini Dressing||
+| 10 |Mozzarella, Red Pepper, Balsamic and Kale Ciabatta|Vegetarian|
+| 10 |Portobello Banh Mi Sub with Pickled Veggies, Jalapenos and Vegan Sriracha Mayo|Vegetarian|
 
 ## Schedule
 
