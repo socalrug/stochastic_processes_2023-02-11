@@ -52,11 +52,21 @@ Irvine, CA 92617
 
 ## WiFi Access
 
-* Connect to SSID: UCInet Mobile
-* Go to [https://oit.uci.edu/reg](https://oit.uci.edu/reg)
-* register your device as a guest
+* Connect to SSID: UCI Guest
+* Agree to the terms of service
 
-If you have problems, please call OIT support line at (949) 824-2222 option 3
+If you are at the Paul Merage Business School you can get help at:
+Merage Technology Support
+
+4293 Pereira Dr
+
+SB1 - Suite 2400
+
+Irvine, CA 92697
+
+(949)824-2482
+
+Otherwise call the OIT support line at (949) 824-2222 option 3
 
 ## GitHub Repo
 
