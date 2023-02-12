@@ -154,16 +154,15 @@ Food, drinks and snacks will be provided throughout the event.  We will have veg
 
 |Start|End|Activity|Slides|Location|
 |:---:|:---:|:------|:-----|:------|
-|08:30|09:00|Computer Setup (getting on the network can be a challenge)||SB1 2100|
-|09:00|09:10|Introduction||SB1 2100|
-|09:10|10:00|Markov Chain|4-29|SB1 2100|
-|10:00|10:50|Random Walk|30-44|SB1 2100|
-|10:50|11:10|Break||
-|11:10|12:00|Poisson|45-63|SB1 2100|
+|08:30|08:45|Computer Setup (getting on the network can be a challenge)||SB1 2100|
+|08:45|08:50|Introduction||SB1 2100|
+|08:50|10:50|Markov Chain|4-29|SB1 2100|
+|10:50|11:05|Break||
+|11:05|12:00|Random Walk|30-44|SB1 2100|
 |12:00|01:00|Lunch||Patio|
-|01:00|01:50|Birth-and-death|64-80|SB1 2100|
-|01:50|02:40|Branching Process|81-90|SB1 2100|
-|02:40|03:00|Break||
-|03:00|03:50|Brownian Motion|91-107|SB1 2100|
-|03:50|04:00|Wrap-up||SB1 2100|
-|04:00|04:30|Buffer if we run long||SB1 2100|
+|01:00|01:40|Poisson|45-63|SB1 2100|
+|01:40|02:20|Birth-and-death|64-80|SB1 2100|
+|02:20|03:00|Branching Process|81-90|SB1 2100|
+|03:00|03:15|Break||
+|03:15|04:15|Brownian Motion|91-107|SB1 2100|
+|04:15|04:30|Wrap-up||SB1 2100|
